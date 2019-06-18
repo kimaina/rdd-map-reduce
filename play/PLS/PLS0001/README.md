@@ -12,7 +12,9 @@ This needs to be a validated against our internal systems by the tuple of (Netwo
 
 Given the below CSV (also `./input.csv`) from our accounting department
 calculate the aggregate loans by the tuple of (Network, Product, Month)
-with the aggregated by tuple currency amounts and counts and output into a file CSV named **Output.csv**.
+with amounts and counts.
+
+The output should be saved into a CSV file named **Output.csv**.
 
 
 |MSISDN     |Network    |Date         |Product         |Amount |
