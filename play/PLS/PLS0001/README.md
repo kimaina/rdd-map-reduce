@@ -3,7 +3,6 @@
 ### Situation
 
 Every two months we are given a text file from our accounting department
-
 detailing all the loans given out on our networks.
 
 This needs to be a validated against our internal systems by the tuple of (Network, Product, Month).
@@ -12,10 +11,8 @@ This needs to be a validated against our internal systems by the tuple of (Netwo
 ### Task
 
 Given the below CSV (also `./input.csv`) from our accounting department
-
 calculate the aggregate loans by the tuple of (Network, Product, Month)
-
-with the aggregated by tuple currency amounts and counts and output into a file CSV named `Output.csv`
+with the aggregated by tuple currency amounts and counts and output into a file CSV named **Output.csv**.
 
 
 |MSISDN     |Network    |Date         |Product         |Amount |
@@ -32,14 +29,12 @@ with the aggregated by tuple currency amounts and counts and output into a file 
 
 ### Solution considerations
 1. The expectation is a file called **Output.csv** with a line
-
    for each tuple aggregating the amount and count of loans by tuple.
 
 2. A **readme.txt** detailing the project, usage and assumptions you’ve made
+   as well as the choices around your language, plugins and 3rd party libraries.
 
-    as well as the choices around your language, plugins and 3rd party libraries.
-
-    It should also include performance, scaling and quality considerations.
+   It should also include performance, scaling and quality considerations.
 
 3. Follow proper coding conventions, object orientated design.
 4. Implement this as you would in a production environment.
@@ -47,11 +42,10 @@ with the aggregated by tuple currency amounts and counts and output into a file 
 
 ### Submission guidelines
 1. Include all source code so that we are able to
-
    build, package, and run your application.
-2. Where possible submit through Github, otherwise package as a
 
-    single zip file and upload to a cloud storage service.
+2. Where possible submit through Github, otherwise package as a
+   single zip file and upload to a cloud storage service.
 
 
 ### Implementation notes
@@ -60,7 +54,9 @@ with the aggregated by tuple currency amounts and counts and output into a file 
 
    To that end we will not review submissions that utilise
    SQL, aggregate libraries, or similar functions built into languages.
-2. Language functions include any method such as a ‘groupBy’
+
+2. Language functions include any method such as a ‘groupBy’.
+
 3. Aggregate libraries include:
     - Python: Pandas
     - Java: jAgg
