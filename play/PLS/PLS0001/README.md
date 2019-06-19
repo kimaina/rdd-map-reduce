@@ -1,11 +1,17 @@
 # PLS0001
 
+Welcome! As part of our recruitment process we invite candidates to
+complete the task below and send us a pull request when done.
+
+We look forward to reviewing your submission.
+
 ### Situation
 
 Every two months we are given a text file from our accounting department
 detailing all the loans given out on our networks.
 
-This needs to be a validated against our internal systems by the tuple of (Network, Product, Month).
+This needs to be a validated against our internal systems by the tuple
+of (Network, Product, Month).
 
 
 ### Task
