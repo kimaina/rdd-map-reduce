@@ -1,0 +1,14 @@
+language: python
+python:
+    - "3.7"
+
+env:
+    global:
+        - SPARK_HOME=/tmp/spark-2.4.0-bin-hadoop2.7
+
+install:
+    - ./install-spark.sh
+    - "pip install -r requirements.txt"
+
+script: ./run_tests.sh
+
